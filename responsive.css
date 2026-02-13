@@ -1,0 +1,164 @@
+/* ===== responsive.css ===== */
+/* ----- MOBILE FIRST OPTIMIZATION ----- */
+
+@media screen and (max-width: 1024px) {
+    .slide-content h2 {
+        font-size: 2.8rem;
+    }
+    .emi-card {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding: 32px;
+    }
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 12px 20px;
+    }
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background: rgba(255, 245, 240, 0.6);
+        backdrop-filter: blur(20px);
+        width: 100%;
+        text-align: center;
+        padding: 32px 0;
+        transition: left 0.3s;
+        border-radius: 0 0 24px 24px;
+        box-shadow: 0 10px 30px rgba(255, 100, 0, 0.1);
+        gap: 24px;
+    }
+    .nav-menu.active {
+        left: 0;
+    }
+    .nav-toggle {
+        display: block;
+    }
+    .hamburger {
+        width: 28px;
+        height: 3px;
+        background: #2e1e1a;
+        position: relative;
+        transition: 0.2s;
+    }
+    .hamburger::before,
+    .hamburger::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background: #2e1e1a;
+        left: 0;
+        transition: 0.2s;
+    }
+    .hamburger::before { top: -8px; }
+    .hamburger::after { bottom: -8px; }
+    .nav-toggle.active .hamburger {
+        background: transparent;
+    }
+    .nav-toggle.active .hamburger::before {
+        transform: rotate(45deg);
+        top: 0;
+    }
+    .nav-toggle.active .hamburger::after {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+
+    .hero-section {
+        height: 70vh;
+    }
+    .slide-content {
+        left: 5%;
+        right: 5%;
+        text-align: center;
+    }
+    .slide-content h2 {
+        font-size: 2rem;
+    }
+    .slide-content p {
+        font-size: 1.2rem;
+    }
+    .slider-prev, .slider-next {
+        width: 40px;
+        height: 40px;
+        font-size: 1.4rem;
+    }
+    .section-title {
+        font-size: 1.9rem;
+    }
+    .card-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+    .footer-content {
+        flex-direction: column;
+        gap: 24px;
+        text-align: center;
+    }
+    .floating-buttons {
+        bottom: 20px;
+        right: 20px;
+        gap: 12px;
+    }
+    .float-btn {
+        width: 55px;
+        height: 55px;
+        font-size: 1.6rem;
+    }
+    .neon-box h3 {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        padding: 10px 16px;
+    }
+    .nav-brand .neon-logo {
+        font-size: 1.4rem;
+    }
+    .hero-section {
+        height: 60vh;
+        min-height: 500px;
+    }
+    .slide-content h2 {
+        font-size: 1.6rem;
+    }
+    .btn {
+        padding: 10px 24px;
+    }
+    .section {
+        padding: 56px 0;
+    }
+    .emi-card {
+        padding: 24px;
+    }
+    .glassmorphism {
+        padding: 24px;
+    }
+    .floating-buttons {
+        bottom: 16px;
+        right: 16px;
+    }
+    .float-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .container {
+        max-width: 1400px;
+    }
+}

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=yes">
+    <title>Dhaka Car HUB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="script.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+</head>
+<body>
+    <!-- FLOATING 3D NEON SHAPES (orange-reddish theme) -->
+    <div class="floating-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
+        <div class="shape shape-6"></div>
+    </div>
+
+    <!-- GLASSMORPHISM NAVBAR -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <span class="neon-logo">Dhaka Car HUB</span>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#sedan" class="nav-link">Sedan</a></li>
+                <li><a href="#suv" class="nav-link">SUV</a></li>
+                <li><a href="#hiace" class="nav-link">Hiace</a></li>
+                <li><a href="#emi" class="nav-link">EMI</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME / HERO SLIDER SECTION -->
+        <section id="home" class="hero-section">
+            <div class="hero-slider">
+                <div class="slides">
+                    <div class="slide active">
+                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1600&q=80" alt="Porsche neon style" class="slide-img">
+                        <div class="slide-content">
+                            <h2 class="animate-heading">UNLEASH THE <span class="neon-text">POWER</span></h2>
+                            <p class="animate-sub">2025 limited editions – reserve yours now</p>
+                            <a href="tel:+8801758742415" class="btn btn-neon">Call For Price</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1556189250-72ba954cfc2b?w=1600&q=80" alt="Lamborghini neon" class="slide-img">
+                        <div class="slide-content">
+                            <h2 class="animate-heading">FUTURE OF <span class="neon-text">SPEED</span></h2>
+                            <p class="animate-sub">exclusive test drive event – call today</p>
+                            <a href="tel:+8801758742415" class="btn btn-neon">Call For Price</a>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="elec.jpg" alt="Audi neon glow" class="slide-img">
+                        <div class="slide-content">
+                            <h2 class="animate-heading">ELECTRIC <span class="neon-text">HORIZON</span></h2>
+                            <p class="animate-sub">zero emission, infinite thrill</p>
+                            <a href="tel:+8801758742415" class="btn btn-neon">Call For Price</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-prev" aria-label="Previous slide">&#10094;</button>
+                <button class="slider-next" aria-label="Next slide">&#10095;</button>
+                <div class="slider-dots"></div>
+            </div>
+        </section>
+
+        <!-- FEATURED CARS (additional) -->
+        <section id="featured" class="section reveal">
+            <div class="container">
+                <h2 class="section-title neon-title">✦ FEATURED COLLECTION</h2>
+                <div class="card-grid">
+                    <div class="card card-3d">
+                        <div class="card-img">
+                            <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&q=80" alt="BMW M series">
+                        </div>
+                        <div class="card-body">
+                            <h3>BMW i4 M50</h3>
+                            <p>536 hp · Laser Headlights</p>
+                            <a href="tel:+8801758742415" class="btn btn-neon-small">Call For Price</a>
+                        </div>
+                    </div>
+                    <div class="card card-3d">
+                        <div class="card-img">
+                            <img src="lc.jpg" alt="Toyota Land Cruiser">
+                        </div>
+                        <div class="card-body">
+                            <h3>Toyota Land Cruiser</h3>
+                            <p>Super Power - Off-road master</p>
+                            <a href="tel:+8801758742415" class="btn btn-neon-small">Call For Price</a>
+                        </div>
+                    </div>
+                    <div class="card card-3d">
+                        <div class="card-img">
+                            <img src="mer.jpg" alt="Mercedes AMG">
+                        </div>
+                        <div class="card-body">
+                            <h3>Mercedes AMG</h3>
+                            <p>Luxury · Custom Interior · AWD</p>
+                            <a href="tel:+8801758742415" class="btn btn-neon-small">Call For Price</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEDAN SECTION -->
+        <section id="sedan" class="section reveal">
+            <div class="container">
+                <h2 class="section-title neon-title">⚡ SEDAN · executive class</h2>
+                <div class="card-grid">
+                    <div class="card card-3d neon-border-hover">
+                        <div class="card-img">
+                            <img src="au.jpg" alt="Audi Q3">
+                        </div>
+                        <div class="card-body">
+                            <h3>Audi Q3</h3>
+                            <p>2.0L TwinPower Turbo · M Sport package</p>
+                            <a href="tel:+8801758742415" class="btn btn-neon-small">Call For Price</a>
+                        </div>
+                    </div>
+                    <div class="card card-3d neon-border-hover">
+                        <div class="card-img">
+                            <img src="tyo.jpg" alt="Toyota Crown RS">
+                        </div>
+                        <div class="card-body">
+                            <h3>Toyota Crown RS</h3>
+                            <p>Hybrid E-Hybrid · adaptive air suspension</p>
+                            <a href="tel:+8801758742415" class="btn btn-neon-small">Call For Price</a>
+                        </div>
+                    </div>
+                    <div class="card card-3d neon-border-hover">
+                        <div class="card-img">
+                            <img src="i7.jpg" alt="BMW I7">
+                        </div>
+                        <div class="card-body">
+                            <h3>BMW I7</h3>
+                            <p>quattro AWD · virtual cockpit · premium</p>
+                            <a href="tel:+8801758742415" class="btn btn-neon-small">Call For Price</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SUV SECTION -->
+        <section id="suv" class="section reveal">
+            <div class="container">
+                <h2 class="section-title neon-title">🏔️ SUV · ADVENTURE READY</h2>
+                <div class="card-grid">
+                    <div class="card card-tilt neon-border-hover">
+                        <div class="card-img">
+                            <img src="defe.jpg" alt="Land Rover Defender">
+                        </div>
+                        <div class="card-body">
+                            <h3>Land Rover Defender</h3>
+                            <p>V8 · 4x4 · panoramic sunroof</p>
+                            <a href="tel:+8801758742415" class="btn btn-neon-small">Call For Price</a>
+                        </div>
+                    </div>
+                    <div class="card card-tilt neon-border-hover">
+                        <div class="card-img">
+                            <img src="x7.jpg" alt="BMW X7">
+                        </div>
+                        <div class="card-body">
+                            <h3>BMW X7</h3>
+                            
+                            <p>650 hp · V8 twin-turbo · 0-100 3.6s</p>
+                            <a href="tel:+8801758742415" class="btn btn-neon-small">Call For Price</a>
+                        </div>
+                    </div>
+                    <div class="card card-tilt neon-border-hover">
+                        <div class="card-img">
+                            <img src="RAN.jpg" alt="Range Rover Sport">
+                        </div>
+                        <div class="card-body">
+                            <h3>Range Rover Sport</h3>
+                            <p>3.0L Ingenium · terrain response</p>
+                            <a href="tel:+8801758742415" class="btn btn-neon-small">Call For Price</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HIACE SECTION -->
+        <section id="hiace" class="section reveal">
+            <div class="container">
+                <h2 class="section-title neon-title">🚐 HIACE · COMMERCIAL & LUXURY</h2>
+                <div class="card-grid">
+                    <div class="card card-3d neon-border-hover">
+                        <div class="card-img">
+                            <img src="voxy.jpg" alt="Toyota VOXY">
+                        </div>
+                        <div class="card-body">
+                            <h3>Toyota VOXY</h3>
+                            
+                            <p>EcoBlue diesel · high roof · L2H2</p>
+                            <a href="tel:+8801758742415" class="btn btn-neon-small">Call For Price</a>
+                        </div>
+                    </div>
+                    <div class="card card-3d neon-border-hover">
+                        <div class="card-img">
+                            <img src="h1.jpg" alt="Toyota Hiace Super GL">
+                        </div>
+                        <div class="card-body">
+                            <h3>Toyota Hiace Super GL</h3>
+                            <p>3.0L D-4D · 12-seater · premium wrap</p>
+                            <a href="tel:+8801758742415" class="btn btn-neon-small">Call For Price</a>
+                        </div>
+                    </div>
+                    <div class="card card-3d neon-border-hover">
+                        <div class="card-img">
+                            <img src="h2.jpg" alt="Toyota Hiace SLWB">
+                        </div>
+                        <div class="card-body">
+                            <h3>Toyota Hiace SLWB</h3>
+                            <p>Crew bus · MBUX infotainment</p>
+                            <a href="tel:+8801758742415" class="btn btn-neon-small">Call For Price</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EMI CALCULATOR -->
+        <section id="emi" class="section reveal">
+            <div class="container">
+                <h2 class="section-title neon-title">📱 EMI CALCULATOR </h2>
+                <div class="emi-card glassmorphism">
+                    <div class="emi-form">
+                        <div class="input-group">
+                            <label>Car Price (৳ )</label>
+                            <input type="number" id="carPrice" placeholder="e.g. 35000" min="0">
+                        </div>
+                        <div class="input-group">
+                            <label>Down Payment (৳ )</label>
+                            <input type="number" id="downPayment" placeholder="e.g. 5000" min="0">
+                        </div>
+                        <div class="input-group">
+                            <label>Interest Rate (% per annum)</label>
+                            <input type="number" id="interestRate" placeholder="e.g. 7.5" step="0.1" min="0">
+                        </div>
+                        <div class="input-group">
+                            <label>Loan Tenure (years)</label>
+                            <input type="number" id="loanTenure" placeholder="e.g. 5" min="1">
+                        </div>
+                        <button id="calculateEmi" class="btn btn-neon btn-full">Calculate EMI</button>
+                    </div>
+                    <div class="emi-result">
+                        <div class="neon-box">
+                            <span>MONTHLY EMI</span>
+                            <h3 id="emiValue">৳  0.00</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT & WHY CHOOSE US -->
+        <section id="about" class="section reveal">
+            <div class="container">
+                <h2 class="section-title neon-title">✦ ABOUT Dhaka Car HUB</h2>
+                <div class="about-grid">
+                    <div class="about-text glassmorphism">
+                        <h3>Premium car boutique since 2012</h3>
+                        <p>We deliver exclusive, tailor-made automotive experiences. Every vehicle is hand-selected, and our transparent, no-haggle pricing ensures total peace of mind. No price tags – just personalized service.</p>
+                    </div>
+                    <div class="why-choose">
+                        <div class="feature-icon">🚀</div>
+                        <h3>Why choose us</h3>
+                        <ul>
+                            <li>✓ 3D virtual showroom</li>
+                            <li>✓ 0% commission on finance</li>
+                            <li>✓ 5-year warranty included</li>
+                            <li>✓ VIP home test drive</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CUSTOMER REVIEWS -->
+        <section id="testimonials" class="section reveal">
+            <div class="container">
+                <h2 class="section-title neon-title">💬 CUSTOMERS REVIEW</h2>
+                <div class="testimonial-slider">
+                    <div class="testimonial-slides">
+                        <div class="testimonial active">
+                            <p>"The Hiace I bought exceeded expectations – neon service is legendary!"</p>
+                            <h4>— Ahmed R.</h4>
+                        </div>
+                        <div class="testimonial">
+                            <p>"Smooth finance, zero pressure. They only say 'call for price', and it's truly fair."</p>
+                            <h4>— Lisa M.</h4>
+                        </div>
+                        <div class="testimonial">
+                            <p>"3D configurator felt like a game. My Urus arrived in 3 weeks."</p>
+                            <h4>— Carlos T.</h4>
+                        </div>
+                    </div>
+                    <div class="testimonial-controls">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT + MAP PLACEHOLDER -->
+        <section id="contact" class="section reveal">
+            <div class="container">
+                <h2 class="section-title neon-title">📞 CONTACT & SHOWROOM</h2>
+                <div class="contact-grid">
+                    <div class="contact-info glassmorphism">
+                        <h3>Dhaka Car HUB · Downtown</h3>
+                        <p>📍 J Block, Baridhara, Dhaka</p>
+                        <p>📞 +08801758742415</p>
+                        <p>✉ hello@dhakacarhub.com</p>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon">fb</a>
+                            <a href="#" class="social-icon">tw</a>
+                            <a href="#" class="social-icon">ig</a>
+                            <a href="#" class="social-icon">li</a>
+                        </div>
+                    </div>
+                    <div class="map-placeholder glassmorphism">
+                        <div class="map-overlay">
+                            <span class="neon-text">📍 GOOGLE MAP</span>
+                            <p>Live location – interactive map</p>
+                            <div class="fake-map"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="neon-logo">Dhaka Car HUB</span>
+                    <p>Premium car dealership · since 2012</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#sedan">Cars</a>
+                    <a href="#emi">Finance</a>
+                    <a href="#contact">Visit</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+
+            </div>
+            <div class="copyright">
+                <p>© 2025 Dhaka Car HUB — all rights reserved. Designed & Developed by Venture IT</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP & CALL BUTTONS (right side, icon only, neon pulse) -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/8801758742415" class="float-btn whatsapp neon-pulse" target="_blank" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+
+        </a>
+        <a href="tel:+8801758742415" class="float-btn call-btn neon-pulse" aria-label="Call Us">
+            <span>📞</span>
+        </a>
+    </div>
+</body>
+</html>
