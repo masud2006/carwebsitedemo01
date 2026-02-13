@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             if (isFinite(emi)) {
-                emiResult.innerText = `৳ ৳{emi.toFixed(2)}`;
+                emiResult.innerText = `$ ${emi.toFixed(2)}`;
             } else {
                 emiResult.innerText = '❌ Calculation error';
             }
@@ -212,4 +212,5 @@ setInterval(nextSlide, 4000);
     }
 
 });
+
 
